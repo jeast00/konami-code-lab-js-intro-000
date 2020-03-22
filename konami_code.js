@@ -17,7 +17,7 @@ function init() {
   // your code here
   document.addEventListener("keydown", (event) => {
 
-  var key = event.code.toString();
+  var key = event.key;
   console.log(key);
 
   var codeIndex = codes[index];
