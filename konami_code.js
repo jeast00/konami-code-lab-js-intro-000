@@ -21,6 +21,7 @@ function init() {
   console.log(key);
 
   var codeKey = codes[index];
+  console.log(codeKey);
 
   });
 }
