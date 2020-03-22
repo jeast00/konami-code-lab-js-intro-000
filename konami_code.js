@@ -15,14 +15,16 @@ let index = 0;
 
 function init() {
   // your code here
-  document.addEventListener("keydown", (e) => {
+  document.addEventListener("keydown", (event) => {
 
-  var key = e.key;
-  console.log(key);
+  var key = event.key;
 
-  var codeKey = codes[index];
-  console.log(codeKey);
-  index++;
+  var codeIndex = codes[index];
+
+  if(key == codeIndex) {
+    index++;
+  }
+
 
   });
 }
