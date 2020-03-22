@@ -15,9 +15,9 @@ let index = 0;
 
 function init() {
   // your code here
-  document.body.addEventListener("keydown", (e) => {
+  document.addEventListener("keydown", (e) => {
 
-  var key = codes[e.key];
+  var key = e.key;
   console.log(key);
   });
 }
