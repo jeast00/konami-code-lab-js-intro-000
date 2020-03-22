@@ -22,6 +22,7 @@ function init() {
 
   var codeKey = codes[index];
   console.log(codeKey);
+  index++;
 
   });
 }
