@@ -19,5 +19,8 @@ function init() {
 
   var key = e.key;
   console.log(key);
+
+  var codeKey = codes[index];
+
   });
 }
