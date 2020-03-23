@@ -23,6 +23,13 @@ function init() {
   if(code == codes[index]) {
     index = index + 1;
     console.log(index);
+
+    if(index == codes.length) {
+      alert("Hurray!");
+      index = 0;
+    }
+  } else {
+    index = 0;
   }
 
   });
