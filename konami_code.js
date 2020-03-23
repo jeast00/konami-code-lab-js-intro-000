@@ -22,6 +22,7 @@ function init() {
 
   if(code == codes[index]) {
     index = index + 1;
+    console.log(index);
   }
 
   });
