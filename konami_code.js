@@ -17,7 +17,7 @@ function init() {
   // your code here
   document.addEventListener("keydown", (event) => {
 
-  var code = codes[event];
+  var code = codes[event.key];
   console.log(code);
 
   });
